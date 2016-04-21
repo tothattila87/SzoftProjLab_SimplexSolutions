@@ -1,0 +1,11 @@
+Player1_Player2_draw
+---
+mapSelect 1
+moveRight player1
+moveRight player1
+moveLeft player2
+moveLeft player2
+---
+zpmCounts 1 1 0
+whoWon x
+---

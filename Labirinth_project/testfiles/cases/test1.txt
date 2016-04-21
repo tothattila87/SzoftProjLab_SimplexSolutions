@@ -1,0 +1,10 @@
+Player1_win
+---
+mapSelect 1
+moveRight player1
+moveRight player1
+moveRight player1
+moveRight player1
+---
+zpmCounts 2 0 0
+---
