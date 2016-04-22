@@ -11,5 +11,5 @@ moveLeft player1
 moveLeft player1
 moveUp player1
 ---
-boxCounts 1 0 0
+boxCounts 0 0 0
 ---
