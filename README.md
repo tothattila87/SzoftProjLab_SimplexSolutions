@@ -1,0 +1,2 @@
+# SzoftProjLab_SimplexSolutions
+Readme
