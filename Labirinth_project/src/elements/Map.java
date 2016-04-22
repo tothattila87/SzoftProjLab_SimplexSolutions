@@ -32,7 +32,11 @@ public class Map {
 	protected Object clone() throws CloneNotSupportedException {
 		Map copiedMap = new Map(mapWidth,mapHeight);
 		copiedMap.listElements = this.listElements.clone();
-		
+		copiedMap.name = this.name;
+		copiedMap.toplist = this.toplist;
+		copiedMap.oneil = this.oneil.clone();
+		copiedMap.jaffa = this.jaffa.clone();
+		copiedMap.replicator = this.replicator.clone();
 		
 		return copiedMap;
 	}

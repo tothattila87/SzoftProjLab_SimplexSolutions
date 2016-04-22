@@ -30,6 +30,14 @@ public class Player{
 		
 	}
 
+	@Override
+	protected Replicator clone() throws CloneNotSupportedException {
+		Replicator copiedPlayer = new Replicator(this.pos , this.map , this.game);
+		
+		
+		return copiedPlayer;
+	}
+
 	public void moveUp()
 	{
 		dir = Direction.up;
